@@ -1,0 +1,6 @@
+Mail: tomhe@campus.technion.ac.il
+Name: Tom Herman
+Short Explanation:
+I created a graph of the abc letters as nodes and their translations as edges.
+A translation is correct if for every corresponding letters in the translation there is a path from the first to the second. i.e. bfs(first, second) return true;
+Time Complexity: O(m*n) - m = number of translations of letters, n = number of words translations checks.

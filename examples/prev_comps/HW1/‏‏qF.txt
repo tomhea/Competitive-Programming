@@ -1,0 +1,5 @@
+Mail: tomhe@campus.technion.ac.il
+Name: Tom Herman
+Short Explanation:
+prints "Yes" iff the number isn't prime and a^p % p == a;
+Time Complexity: O(sqrt(p) + log(p)).

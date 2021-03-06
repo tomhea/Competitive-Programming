@@ -1,0 +1,9 @@
+Mail: tomhe@campus.technion.ac.il
+Name: Tom Herman
+Short Explanation:
+I created the matrix representing R[i,j] = 1 iff there is a 1-row-play from state i to state j.
+The matrix is 35*35, for the 35 different placements of 4 players in a 7-cell board.
+I pre-calculated the matrix, and then checked how many different routes are there using matrix power.
+The matrix line that represents the starting placement, has the number of different routes, on each reasonable placement.
+Sum them all to get the answer (of course, all modulo 1000000007).
+Time Complexity: O(log(N) * 35^3), with 35^3 = matrix manipulation complexity.

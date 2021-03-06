@@ -1,0 +1,10 @@
+Mail: tomhe@campus.technion.ac.il
+Name: Tom Herman
+Short Explanation:
+In case that the missing opcode is a rotation -
+    I brute-forced all 360 angles, executed the Logo program with it,
+    and printed the one which the turtle finishes on (0,0).
+In case that the missing opcode is a movement -
+    I executed all of the opcodes but the missing one,
+    and printed the distance between the place I got and (0,0) - that's the missing number.
+Time Complexity: O(n), with n = number of opcodes.

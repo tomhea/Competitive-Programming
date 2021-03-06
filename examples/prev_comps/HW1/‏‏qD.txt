@@ -1,0 +1,6 @@
+Mail: tomhe@campus.technion.ac.il
+Name: Tom Herman
+Short Explanation:
+I did the huffman algorithm for all sizes.
+Best coloring is partitioning every color to its huffman components.
+Time Complexity: O(nlog(n)).

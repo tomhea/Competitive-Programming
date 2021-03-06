@@ -1,0 +1,7 @@
+Mail: tomhe@campus.technion.ac.il
+Name: Tom Herman
+Short Explanation:
+I iterated over the whole r times (with hops of 0.001), and took the best one for our cheater!
+I also have a working solution /*commented*/ for a trinary search, taking O(log(n)) time.
+Time Complexity: O(n*1000), with 1000 = precision.
+Improved Time Complexity: O(log(n*10^6)), with 10^6 = precision.

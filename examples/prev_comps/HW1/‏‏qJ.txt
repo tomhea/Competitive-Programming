@@ -1,0 +1,6 @@
+Mail: tomhe@campus.technion.ac.il
+Name: Tom Herman
+Short Explanation:
+I rotated the given polygon for values between 0 and 180 degrees, with small hops,
+and took the lowest difference between the highest and the lowest point of the rotated polygon.
+Time Complexity: O(N*10^4), with 10^4 = precision.

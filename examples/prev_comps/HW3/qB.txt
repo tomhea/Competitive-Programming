@@ -1,0 +1,11 @@
+Mail: tomhe@campus.technion.ac.il
+Name: Tom Herman
+Short Explanation:
+I created a weighted graph representing the options of going up/down/switch elevators.
+The nodes are [100*i -> 100*i + 99] for each 100 floors while riding on elevator i.
+Then, I added a starting node connected to each elevator at floor 0 with zero cost,
+ and end node reachable from the k'th floor of each elevator with zero cost.
+Then I connected all the stoppable floors of each elevator with the cost of travelling up or down with the ride cost,
+ and lastly I connected all the elevators stopping at the same floor with cost of 60 seconds.
+Afterwards I run the Dijkstra algorithm (E*logV) from node s, and printed the result according to the distance to node e.
+Time Complexity: O((100V)^2 * log(100V)).

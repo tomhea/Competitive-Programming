@@ -1,0 +1,8 @@
+Mail: tomhe@campus.technion.ac.il
+Name: Tom Herman
+Short Explanation:
+I created a weighted graph representing the circles and the walls.
+The nodes are the circles and the walls, and the weights between two nodes is the maximal circle diameter that can go between them.
+Afterwards I run the Dijkstra algorithm (E*logV) from the left wall, and printed the result according to the distance to the right wall.
+ The Dijkstra algorithm was changed a bit, so that the cost of a route is the weight of the heaviest edge on that route.
+Time Complexity: O(n^2 * log(n)).

@@ -1,0 +1,13 @@
+Mail: tomhe@campus.technion.ac.il
+Name: Tom Herman
+Short Explanation:
+Firstly, I ordered the inputs in lists,
+ each contains the consecutive recyclable materials, without immediate repeats.
+ Lists are bounded by non-recyclable materials (and those aren't in any list).
+I used Dynamic Programming for finding the minimal actions needed for every list, and then summed them up.
+ For every list, the DP problem is the minimal number of action in the sub-list [s,s+1,...,e].
+  It is equal to the minimal option of taking the first and some other index which its list value is the same as the first,
+  and summing the 'inner' [s+1,...,k-1] DP problem with the 'remaining' [k,...,e] DP problem.
+There are O(N*N) indices options, and for every one we might calculate the minimum of O(N) other DP problems.
+ The base calculations are O(1).
+Time Complexity: O(N^3).

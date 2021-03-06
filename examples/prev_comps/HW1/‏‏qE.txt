@@ -1,0 +1,7 @@
+Mail: tomhe@campus.technion.ac.il
+Name: Tom Herman
+Short Explanation:
+The action of adding the left and the right should happen S times, so I looked at it as the adding matrix, to the power of S.
+matrix multiplication takes time.. so because its a rotational matrix, i used the n^2 rot-matrix multiplication.
+together with the fast exponentiation, it became runnable. after that we multiply the given starting numbers with the calculated matrix, to get the result.
+Time Complexity: O(n^2 * log(S)).

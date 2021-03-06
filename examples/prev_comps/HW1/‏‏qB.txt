@@ -1,0 +1,9 @@
+Mail: tomhe@campus.technion.ac.il
+Name: Tom Herman
+Short Explanation:
+I used a segment tree to save for every number - the number of occurances it has.
+The tree is a max-tree, as it saves for every subtree the maximal value of its nodes.,
+ i.e. the maximal number of occurances it has between its end-nodes.
+Then for every query, i removed some occurances from the end-nodes as the query suggest, 
+  searched the tree for maximal occurances bwtween the end-nodes, and then added the removed occurances back.
+Time Complexity: O((n+q)log(n)).

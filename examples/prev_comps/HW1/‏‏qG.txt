@@ -1,0 +1,7 @@
+Mail: tomhe@campus.technion.ac.il
+Name: Tom Herman
+Short Explanation:
+I created a graph over all cities and road-connections.
+I saved a boolean array of cities that are safe, and a counter of these.
+For every new alien base, I continued the Dijkstra algorithm with d[B]=0 from the B- new alien base.
+Time Complexity: O(worst case: A*M*log(N)).

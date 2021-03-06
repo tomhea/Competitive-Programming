@@ -1,0 +1,7 @@
+Mail: tomhe@campus.technion.ac.il
+Name: Tom Herman
+Short Explanation:
+I insert every event to a priority queue, as 2 events - start-time and end-time. 
+I pop every event and checks if it collides with the last ones.
+repeating events are handelned with inserting them again with time += jump-size.
+Time Complexity: O(nlog(n) * 1000000), with 1000000 = jump-size.
